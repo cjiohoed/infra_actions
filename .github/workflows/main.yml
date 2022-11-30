@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ls -la
-      - name: ABash Test Step
+      - name: Bash Test Step
         shell: bash
         run: |
-          echo "HELLO"
+          echo "HELLO TEST"
