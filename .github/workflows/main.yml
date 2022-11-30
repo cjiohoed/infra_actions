@@ -6,5 +6,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ls -la
-      - name: actions/checkout@v2
-      - run: echo "HELLO WORLD!!!"
